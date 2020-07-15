@@ -6,18 +6,71 @@
     <title>Detail</title>
 </head>
 <body>
-    <div class="header" >
-            <img src="C:\Users\DELL\VsCode\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" 
-                alt="logo" 
-                height="100px" 
-                width="150px">
-                <p>Header Div</p>
+    <div class="header">
+        <a href="index.html">
+            <img src="C:\Users\HP\VsCode\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" 
+            alt="logo" 
+            height="100px" 
+            width="150px">
+        </a>
+        
+        <a href="login.html">Login</a>
     </div>
-     <div class="content">
-        <p>Content Div</p>
-     </div>
-     <div class="footer">
-        <p>Footer Div</p>
-     </div>
+    
+    <div class="content">
+        <div>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+        </div>
+            
+        <form action="payment.html" method="GET" autocomplete="off">
+            <label for="adults">Adults:</label>
+            <input type="number" name="adult" value="1" min="1" required/><br/>
+
+            <label for="name">Name</label>
+            <input type="text" name="name" required/><br/>
+
+            <label for="from date">From Date:</label>
+            <input type="date" name="fromDate" required/><br/>
+
+            <label for="to date">To Date:</label>
+            <input type="date" name="toDate" required/><br/>
+
+            <label for="total">Total:</label>
+            <input type="number" name="price" readonly/><br/>
+
+            <button>Book Now</button>
+        </form>
+            
+        <h2>Radisson Blu Hotel</h2>
+        <p>RATING</p>
+        <p>5 Star</p>
+        <p>AMENITIES</p>
+        <ul>
+            <li>Room service</li>
+            <li>Restaurant</li>
+            <li>Business senter</li>
+            <li>Fitness center</li>
+            <li>Pool</li>
+        </ul>
+        
+        <h5>DESCRIPTION</h5>
+        <p>Lorem ipsum dolor sirt amet consectetur elit. Deleniti, illum totam magni voluptatibus libero delectus nesciunt hic vel! Aperiam esse asperiores culpa, natus quam quis eum ex doloremque <br /> 
+            doloribus architecto!</p>
+    </div>
+    
+    <div>    
+        <div><a href="contact.html">Contact Us</a></div>
+        
+        <a href="https://www.facebook.com" target="_blank"> 
+            <img src="C:\Users\Dell\VsCode\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" alt="faccebook" height="20px" width="22px">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="C:\Users\Dell\VsCode\Hotel_Booking_Website_Starter_Code\assests\images\instagram.png" alt="instagram" height="20px" width="22px">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="C:\Users\Dell\VsCode\Hotel_Booking_Website_Starter_Code\assests\images\twitter.png" alt="twitter" height="20px" width="22px">
+        </a>
+        <div> &copy; 2020 ROOM SEARCH PVT. LTD.</div>
+    </div>
 </body>
 </html>
