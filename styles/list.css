@@ -1,4 +1,13 @@
 .hotels img{
     width: 300px;
     height: 250px;
+    
 }
+
+
+.hotel-description{
+    margin: 2%;
+    width: 40%;
+    background-color: rgb(132,136,139);
+}
+
