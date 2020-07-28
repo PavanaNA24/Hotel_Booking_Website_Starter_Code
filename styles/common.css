@@ -1,9 +1,5 @@
 
-a{
-    text-decoration: none;
-    color:#000;
-}
-body, main{
+body{
     width: 100%;
     height: 100vh;
     background-color: #e0e0e0;
@@ -18,11 +14,17 @@ header,footer{
     background-color: rosybrown;
 }
 
+.prettier{
+    font-family: cursive;
+    font-weight: bold;
+}
+
 /******************* Header ******************/
 
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
@@ -33,14 +35,25 @@ header img{
     width: 60px;
     height: 60px;
     vertical-align: middle;
+    margin-left: 1%;
+}
+
+header a{
+    text-decoration: none;
+    color:#000;
 }
 
 header .login{
-    padding: 20px;
     vertical-align: middle;
+    margin-right: 2%;
+}
+
+.content{
+    padding-top: 60px;
 }
 
 /******************* Footer ******************/
+
 footer{
     display: flex;
     flex-wrap: wrap;
@@ -52,25 +65,36 @@ footer{
     bottom: 0;
 }
 
-
-footer img{
+footer a img{
     width: 20px;
     height: 20px;
 }
+
+.contact-us{
+    margin-left: 2%;
+}
+
+.contact-us a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+}
+
 .social-media-icons{
-    margin-right: 1%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.social-media-icons a{
+    text-decoration: none;
 }
 
 .copyright{
     font-size: 10px;
+    font-weight: 600;
     color:#000;
     text-align: center;
-    position: absolute;
-    bottom: 3px;
-    left: 0;
-    right: 0;
 }
 
-.contact-us{
-    margin-left: 1%;
-}
+
+
